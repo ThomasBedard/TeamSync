@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A470D452AE6011E00284D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A470D442AE6011E00284D37 /* Assets.xcassets */; };
+		9A470D4C2AF52D5200284D37 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A470D4B2AF52D5200284D37 /* Contact.swift */; };
+		9A470D4E2AF53B1D00284D37 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A470D4D2AF53B1D00284D37 /* Post.swift */; };
 		9AB0AFC32AE5791800512045 /* TeamSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0AFC22AE5791800512045 /* TeamSyncApp.swift */; };
 		9AB0AFC52AE5791800512045 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0AFC42AE5791800512045 /* ContentView.swift */; };
-		9AB0AFC72AE5791900512045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB0AFC62AE5791900512045 /* Assets.xcassets */; };
 		9AB0AFCA2AE5791900512045 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB0AFC92AE5791900512045 /* Preview Assets.xcassets */; };
+		9AB0AFD52AE5DC7800512045 /* NewsfeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0AFD42AE5DC7800512045 /* NewsfeedViewModel.swift */; };
+		9AB0AFD72AE5DC8F00512045 /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0AFD62AE5DC8F00512045 /* TasksViewModel.swift */; };
+		9AB0AFD92AE5DCA100512045 /* DirectoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0AFD82AE5DCA100512045 /* DirectoryViewModel.swift */; };
+		9AB0AFDB2AE5DCB200512045 /* AboutUsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0AFDA2AE5DCB200512045 /* AboutUsViewModel.swift */; };
+		9AB0AFDD2AE5DCC800512045 /* NewsfeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0AFDC2AE5DCC800512045 /* NewsfeedView.swift */; };
+		9AB0AFDF2AE5DCDA00512045 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0AFDE2AE5DCDA00512045 /* TasksView.swift */; };
+		9AB0AFE12AE5DCEA00512045 /* DirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0AFE02AE5DCEA00512045 /* DirectoryView.swift */; };
+		9AB0AFE32AE5DCF700512045 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0AFE22AE5DCF700512045 /* AboutUsView.swift */; };
+		9AB0AFE72AE5DD2900512045 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0AFE62AE5DD2900512045 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A470D442AE6011E00284D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A470D4B2AF52D5200284D37 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		9A470D4D2AF53B1D00284D37 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		9AB0AFBF2AE5791800512045 /* TeamSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB0AFC22AE5791800512045 /* TeamSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSyncApp.swift; sourceTree = "<group>"; };
 		9AB0AFC42AE5791800512045 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9AB0AFC62AE5791900512045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AB0AFC92AE5791900512045 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AB0AFD42AE5DC7800512045 /* NewsfeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedViewModel.swift; sourceTree = "<group>"; };
+		9AB0AFD62AE5DC8F00512045 /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
+		9AB0AFD82AE5DCA100512045 /* DirectoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewModel.swift; sourceTree = "<group>"; };
+		9AB0AFDA2AE5DCB200512045 /* AboutUsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewModel.swift; sourceTree = "<group>"; };
+		9AB0AFDC2AE5DCC800512045 /* NewsfeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedView.swift; sourceTree = "<group>"; };
+		9AB0AFDE2AE5DCDA00512045 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		9AB0AFE02AE5DCEA00512045 /* DirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryView.swift; sourceTree = "<group>"; };
+		9AB0AFE22AE5DCF700512045 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+		9AB0AFE62AE5DD2900512045 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +73,12 @@
 		9AB0AFC12AE5791800512045 /* TeamSync */ = {
 			isa = PBXGroup;
 			children = (
+				9AB0AFD22AE5DAEC00512045 /* Models */,
+				9AB0AFD12AE5DAE200512045 /* Views */,
+				9AB0AFD02AE5DAD100512045 /* ViewModels */,
 				9AB0AFC22AE5791800512045 /* TeamSyncApp.swift */,
 				9AB0AFC42AE5791800512045 /* ContentView.swift */,
-				9AB0AFC62AE5791900512045 /* Assets.xcassets */,
+				9A470D442AE6011E00284D37 /* Assets.xcassets */,
 				9AB0AFC82AE5791900512045 /* Preview Content */,
 			);
 			path = TeamSync;
@@ -65,6 +90,38 @@
 				9AB0AFC92AE5791900512045 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AB0AFD02AE5DAD100512045 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9AB0AFD42AE5DC7800512045 /* NewsfeedViewModel.swift */,
+				9AB0AFD62AE5DC8F00512045 /* TasksViewModel.swift */,
+				9AB0AFD82AE5DCA100512045 /* DirectoryViewModel.swift */,
+				9AB0AFDA2AE5DCB200512045 /* AboutUsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9AB0AFD12AE5DAE200512045 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AB0AFDC2AE5DCC800512045 /* NewsfeedView.swift */,
+				9AB0AFDE2AE5DCDA00512045 /* TasksView.swift */,
+				9AB0AFE02AE5DCEA00512045 /* DirectoryView.swift */,
+				9AB0AFE22AE5DCF700512045 /* AboutUsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AB0AFD22AE5DAEC00512045 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AB0AFE62AE5DD2900512045 /* Task.swift */,
+				9A470D4B2AF52D5200284D37 /* Contact.swift */,
+				9A470D4D2AF53B1D00284D37 /* Post.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +140,8 @@
 			dependencies = (
 			);
 			name = TeamSync;
+			packageProductDependencies = (
+			);
 			productName = TeamSync;
 			productReference = 9AB0AFBF2AE5791800512045 /* TeamSync.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +170,8 @@
 				Base,
 			);
 			mainGroup = 9AB0AFB62AE5791800512045;
+			packageReferences = (
+			);
 			productRefGroup = 9AB0AFC02AE5791800512045 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +186,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A470D452AE6011E00284D37 /* Assets.xcassets in Resources */,
 				9AB0AFCA2AE5791900512045 /* Preview Assets.xcassets in Resources */,
-				9AB0AFC72AE5791900512045 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +198,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A470D4C2AF52D5200284D37 /* Contact.swift in Sources */,
+				9AB0AFE12AE5DCEA00512045 /* DirectoryView.swift in Sources */,
+				9AB0AFD52AE5DC7800512045 /* NewsfeedViewModel.swift in Sources */,
+				9AB0AFD72AE5DC8F00512045 /* TasksViewModel.swift in Sources */,
+				9A470D4E2AF53B1D00284D37 /* Post.swift in Sources */,
+				9AB0AFE72AE5DD2900512045 /* Task.swift in Sources */,
 				9AB0AFC52AE5791800512045 /* ContentView.swift in Sources */,
+				9AB0AFDF2AE5DCDA00512045 /* TasksView.swift in Sources */,
+				9AB0AFD92AE5DCA100512045 /* DirectoryViewModel.swift in Sources */,
+				9AB0AFE32AE5DCF700512045 /* AboutUsView.swift in Sources */,
+				9AB0AFDD2AE5DCC800512045 /* NewsfeedView.swift in Sources */,
+				9AB0AFDB2AE5DCB200512045 /* AboutUsViewModel.swift in Sources */,
 				9AB0AFC32AE5791800512045 /* TeamSyncApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,9 +1,4 @@
-//
-//  TeamSyncApp.swift
-//  TeamSync
-//
-//  Created by Thomas Bedard on 2023-10-22.
-//
+
 
 import SwiftUI
 
