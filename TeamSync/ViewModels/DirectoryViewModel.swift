@@ -5,7 +5,6 @@ class DirectoryViewModel: ObservableObject {
         // Mock data
         Contact(name: "John Doe", phoneNumber: "123-456-7890", email: "john@example.com"),
         Contact(name: "Steve Smith", phoneNumber: "123-456-7890", email: "steve@example.com")
-        // Add more contacts as needed
     ]
 
     func addContact(_ contact: Contact) {

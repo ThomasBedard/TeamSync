@@ -1,7 +1,10 @@
 import SwiftUI
 
 class TasksViewModel: ObservableObject {
-    @Published var tasks: [Task] = []
+    @Published var tasks: [Task] = [
+        Task( id: UUID(), name: "Mock", deadline: Date(), isComplete: false),
+        Task( id: UUID(), name: "Mock2", deadline: Date(), isComplete: false)
+    ]
     @Published var searchText: String = ""
     
     var filteredTasks: [Task] {
